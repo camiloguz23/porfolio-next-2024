@@ -1,0 +1,28 @@
+.header {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -0);
+  width: 60%;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(8px);
+  animation: nav-shadown 1s linear both;
+  animation-timeline: scroll();
+  animation-range: 0 100px;
+  border-radius: 10px;
+  z-index: 5;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes nav-shadown {
+  to {
+    background-color: var(--color-transparent);
+  }
+}

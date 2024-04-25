@@ -1,0 +1,35 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: relative;
+}
+
+.my-popover {
+  position: absolute;
+  bottom: -100px;
+  width: fit-content;
+  background-color: var(--color-solid-cards);
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .paf {
+    cursor: pointer;
+  }
+  
+  .paf:hover {
+    background-color: var(--hover-interaction);
+  }
+
+  &.active {
+    background-color: var(--hover-interaction);
+  }
+}
