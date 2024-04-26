@@ -43,7 +43,7 @@ export default function RootLayout({
         <meta property="og:image" content="https://i.ibb.co/Np52f2V/JR.png" />
         <meta property="og:url" content="https://www.jeysonguzman.online/" />
         <meta property="og:type" content="website" />
-        <link rel="shortcut icon" href="/JR.png" type="image/x-icon" />
+        <link rel="icon" href="/JR.png" sizes="any" />
       </head>
       <body>
         <UiHeader />
