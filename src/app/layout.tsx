@@ -33,6 +33,18 @@ export default function RootLayout({
       data-theme={theme?.value || "system"}
       className={inter.variable}
     >
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Portfolio de Jeyson Guzman" />
+        <meta
+          property="og:description"
+          content="Desarrollador Frontend y programador Web con mas 2 años de experiencia."
+        />
+        <meta property="og:image" content="https://i.ibb.co/Np52f2V/JR.png" />
+        <meta property="og:url" content="https://www.jeysonguzman.online/" />
+        <meta property="og:type" content="website" />
+        <link rel="shortcut icon" href="/JR.png" type="image/x-icon" />
+      </head>
       <body>
         <UiHeader />
         {children}
