@@ -21,7 +21,7 @@ const links: LinkType[] = [
 export const UiHeader = () => {
   return (
     <header className={style.header}>
-      <img src="/JR.svg" alt="letras J y R" width="30" height="30" />
+      <img src="/JR.png" alt="letras J y R" width="30" height="30" />
       <nav className={style.nav}>
         {links.map((link) => (
           <UiLink key={link.name} link={link} />

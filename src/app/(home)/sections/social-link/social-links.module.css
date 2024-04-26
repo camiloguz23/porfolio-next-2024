@@ -1,0 +1,12 @@
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.linksSocial {
+  transition: 0.5s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio de Jeyson Guzman
 
-## Getting Started
+## ¡Bienvenido a mi portafolio!
 
-First, run the development server:
+Con más de 2 años de experiencia, me apasiona desarrollar y mejorar sitios web. Especializado en el dinámico mundo de JavaScript y el ecosistema de React, convierto ideas en realidades digitales impresionantes. Me encargaré de que tu proyecto siga creciendo con creatividad y profesionalidad.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acerca de mí
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Soy un desarrollador web enfocado en proporcionar soluciones digitales de alta calidad para una amplia gama de necesidades. Desde la creación de sitios web simples y elegantes hasta aplicaciones web complejas, me comprometo a entregar resultados excepcionales que superen las expectativas de mis clientes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tecnologías que domino
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- JavaScript: Profundo conocimiento de JavaScript, incluyendo ES6+ y las últimas características del lenguaje.
+- React: Experiencia extensa en el desarrollo de aplicaciones web utilizando React y sus bibliotecas asociadas.
+- HTML5 & CSS3: Habilidad para crear interfaces de usuario modernas y atractivas utilizando las últimas prácticas de HTML y CSS.
+- Next.JS: Utilizo Next.JS para crear sitios web rápidos y eficientes que ofrecen una experiencia de usuario excepcional.

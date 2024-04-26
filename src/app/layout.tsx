@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { Onest } from "next/font/google";
 import "./globals.css";
-import { cookies, headers } from "next/headers";
-import { UiHeader } from "@/components";
+import { cookies } from "next/headers";
+import { UiFooter, UiHeader } from "@/components";
 
 const inter = Onest({
   subsets: ["latin"],
   style: ["normal", "normal"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--onset",
+  variable: "--onest",
 });
 
 export const metadata: Metadata = {
@@ -27,13 +27,14 @@ export default function RootLayout({
 
   return (
     <html
-      lang="en"
+      lang="es"
       data-theme={theme?.value || "system"}
-      className={inter.className}
+      className={inter.variable}
     >
       <body>
         <UiHeader />
         {children}
+        <UiFooter />
       </body>
     </html>
   );

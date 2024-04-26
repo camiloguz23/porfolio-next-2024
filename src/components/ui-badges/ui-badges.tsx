@@ -2,7 +2,7 @@ import styles from "./badges.module.css";
 
 interface Props {
   text: string;
-  icons: React.ReactNode;
+  icons?: React.ReactNode;
 }
 
 export const UiBadges = ({ icons, text }: Props) => {

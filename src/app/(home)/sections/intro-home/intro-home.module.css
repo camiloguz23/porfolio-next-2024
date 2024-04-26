@@ -1,0 +1,36 @@
+.title {
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-wrap: pretty;
+
+  .span {
+    color: var(--text-secundary);
+  }
+}
+
+.circle {
+  position: relative;
+  background-color: var(--color-solid-cards);
+  border-radius: 50% 50% 11% 11%;
+  width: 411px;
+  height: 411px;
+  z-index: 0;
+
+  .user {
+    width: 411px;
+    height: 411px;
+    position: absolute;
+    top: -60px;
+    left: 0px;
+  }
+}
