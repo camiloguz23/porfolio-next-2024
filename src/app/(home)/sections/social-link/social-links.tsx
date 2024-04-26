@@ -1,15 +1,15 @@
 import { UiBadges } from "@/components";
 import { CvIcon, GithubIcon, GmailIcon, LinkedinIcon } from "@/icons";
-import { DictionaryType, lang } from "@/shared/translate";
 import Link from "next/link";
 import styles from "./social-links.module.css";
+import { DictionaryType, getDictionary } from "@/shared/translate";
 
 interface Props {
   dictionary: DictionaryType;
 }
 
 export const SocialLinks = ({ dictionary }: Props) => {
-  const language = lang;
+  const { lang } = getDictionary();
   const socials = [
     {
       icons: <GithubIcon />,
@@ -42,7 +42,7 @@ export const SocialLinks = ({ dictionary }: Props) => {
       ))}
       <Link
         href={
-          language === "es"
+          lang === "es"
             ? "/documents/jeyson-guzman-cv.pdf"
             : "/documents/jeyson-guzman-cv-en.pdf"
         }
