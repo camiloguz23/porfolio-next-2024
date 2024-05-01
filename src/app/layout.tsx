@@ -26,9 +26,6 @@ export default function RootLayout({
 }>) {
   const cookieStore = cookies();
   const theme = cookieStore.get("theme");
-  const camilo = "";
-  console.log(theme?.value);
-
   return (
     <html
       lang="es"
