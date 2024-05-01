@@ -10,5 +10,13 @@
     "sourceType": "module",
     "project": ["./tsconfig.json"]
   },
-  "plugins": ["react"]
+  "plugins": ["react"],
+  "rules": {
+    "no-console": "error",
+    "no-unused-vars": "error",
+    "no-undef": "error",
+    "react/prop-types": "error",
+    "react/react-in-jsx-scope": "off",
+    "quotes": ["error", "double"]
+  }
 }
