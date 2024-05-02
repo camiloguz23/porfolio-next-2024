@@ -8,7 +8,7 @@ interface Props {
   dictionary: DictionaryType;
 }
 
-export const SocialLinks = ({ dictionary }: Props) => {
+export const SocialLinks = ({ dictionary }: Props): JSX.Element => {
   const { lang } = getDictionary();
   const socials = [
     {

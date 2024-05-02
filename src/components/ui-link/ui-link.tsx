@@ -9,7 +9,7 @@ interface Props {
   link: LinkType;
 }
 
-export const UiLink = ({ link }: Props) => {
+export const UiLink = ({ link }: Props): JSX.Element => {
   const path = usePathname();
   return (
     <Link

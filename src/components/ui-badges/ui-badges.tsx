@@ -5,10 +5,8 @@ interface Props {
   icons?: React.ReactNode;
 }
 
-export const UiBadges = ({ icons, text }: Props) => {
-  return (
-    <span className={styles.span}>
-      {icons} {text}
-    </span>
-  );
-};
+export const UiBadges = ({ icons, text }: Props): JSX.Element => (
+  <span className={styles.span}>
+    {icons} {text}
+  </span>
+);

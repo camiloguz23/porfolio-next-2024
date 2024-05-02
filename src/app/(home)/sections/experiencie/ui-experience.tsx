@@ -8,7 +8,7 @@ interface Props {
   dictionary: DictionaryType;
 }
 
-export const UiExperience = ({ dictionary }: Props) => {
+export const UiExperience = ({ dictionary }: Props): JSX.Element => {
   const experience: ExperienceType[] = [
     {
       title: "Devontic - Frontend Developer",

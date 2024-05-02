@@ -7,13 +7,13 @@ import styles from "./btn-theme.module.css";
 import { setThemeAction } from "@/action";
 import { useBoolean } from "@/shared/hooks";
 
-export const UiBtnTheme = () => {
-  const [theme, setTheme] = useState<ThemesType>("system");
+export const UiBtnTheme = (): JSX.Element => {
+  const [, setTheme] = useState<ThemesType>("system");
   const modal = useBoolean();
 
-  const setColorTheme = (theme: ThemesType) => {
-    setTheme(theme);
-    setThemeAction(theme);
+  const setColorTheme = (selectedTheme: ThemesType): void => {
+    setTheme(selectedTheme);
+    setThemeAction(selectedTheme);
     modal.onFalse();
   };
 
